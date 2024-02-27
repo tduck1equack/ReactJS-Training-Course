@@ -1,0 +1,8 @@
+1. Keywords:
+- Cắt web
+- HTML tags
+- Box model in CSS
+- Box-sizing in CSS
+- Grid in CSS
+- Flexbox in CSS
+- Responsiveness in CSS
