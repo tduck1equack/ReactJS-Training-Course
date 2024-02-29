@@ -1,0 +1,85 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.big-h1 {
+  font-size: 70px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+}
+.primary-button {
+  background-color: #e22104;
+  padding: 12px 45px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.flexbox-main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.margin-box {
+  margin: 130px auto;
+}
+.no-margin-top-bottom {
+  margin: 15px auto;
+}
+.top-bar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.icon {
+  height: auto;
+  width: auto;
+  background-color: black;
+}
+.button-list {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.button {
+  font-size: 14px;
+}
+.social {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.social-network {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border: 3px black;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px black; /* Needs further fixing */
+}
+.social-advertisement {
+  width: 474px;
+}
+.social-icon-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-picture-bar {
+  box-sizing: border-box;
+  height: 709px;
+  width: 650px;
+  border: 3px;
+}
