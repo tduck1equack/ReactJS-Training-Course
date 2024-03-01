@@ -14,6 +14,15 @@ button {
   font-family: "Josefin Sans", sans-serif;
   line-height: 0.929;
 }
+.small-h1 {
+  font-size: 30px;
+}
+.small-h2 {
+  font-size: 20px;
+}
+.item-h1 {
+  font-size: 24px;
+}
 .header {
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
@@ -22,6 +31,9 @@ button {
 .section-divider {
   color: #e22104;
   font-family: "Josefin Sans", sans-serif;
+}
+.white {
+  color: #ffffff;
 }
 .text-content {
   font-size: 15px;
@@ -64,6 +76,12 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .logo {
 }
@@ -192,4 +210,40 @@ button {
   background-color: #fff8f7;
   width: 540px;
   height: 159px;
+}
+.reservation-prompt {
+  background: url(https://preview.colorlib.com/theme/sneaky/img/home/cta-bg.png.webp);
+}
+.chef-picture-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.chef-picture-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.chef-picture-info {
+  box-sizing: border-box;
+  text-align: center;
+  background: #ffffff;
+  position: relative;
+  bottom: 100px;
+  width: 350px;
+}
+.blog-picture-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.blog-picture-item-photo {
+  height: auto;
+}
+.blog-picture-item-info {
+  box-sizing: border-box;
+  background: #fff8f7;
+  padding: 30px;
 }
