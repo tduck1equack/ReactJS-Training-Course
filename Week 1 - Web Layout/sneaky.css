@@ -2,6 +2,8 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
+  font-weight: 400;
 }
 button {
   font-size: 14px;
@@ -10,13 +12,19 @@ button {
 .big-h1 {
   font-size: 70px;
   font-family: "Josefin Sans", sans-serif;
+  line-height: 0.929;
 }
 .header {
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
+  line-height: 1.2;
 }
 .section-divider {
   color: #e22104;
+  font-family: "Josefin Sans", sans-serif;
+}
+.text-content {
+  font-size: 15px;
 }
 .primary-button {
   background-color: #e22104;
@@ -25,6 +33,7 @@ button {
   border: none;
   border-radius: 30px;
   font-weight: 600;
+  padding: 12px 45px;
 }
 .transparent-button {
   border: none;
@@ -114,4 +123,29 @@ button {
 }
 .social-display-picture {
   display: inherit;
+}
+.about-picture {
+  width: 540px;
+  height: 414px;
+}
+.about-text {
+  width: 475px;
+}
+.featured-picture-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.featured-picture-item {
+  box-sizing: border-box;
+  width: 350px;
+  border: 3px solid black;
+}
+.featured-picture-item-photo {
+  height: 345.14px;
+}
+.rating-price {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
