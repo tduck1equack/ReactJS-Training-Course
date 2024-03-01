@@ -49,6 +49,7 @@ button {
 .emergency-flex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .logo {
 }
@@ -70,6 +71,7 @@ button {
 }
 .button {
   font-size: 14px;
+  margin-right: 35px;
 }
 .social {
   display: flex;
