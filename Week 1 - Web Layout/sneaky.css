@@ -27,6 +27,7 @@ button {
   font-size: 15px;
 }
 .primary-button {
+  box-sizing: border-box;
   background-color: #e22104;
   padding: 12px 45px;
   color: white;
@@ -34,10 +35,14 @@ button {
   border-radius: 30px;
   font-weight: 600;
   padding: 12px 45px;
+  width: auto;
 }
 .transparent-button {
   border: none;
   background-color: white;
+}
+.white-border {
+  border: 1px solid #fff;
 }
 .flexbox-main {
   box-sizing: border-box;
@@ -89,7 +94,7 @@ button {
 }
 .social-network {
   display: flex;
-  align-content: center;
+  align-content: column;
   justify-content: space-between;
   border: 3px solid black;
   width: 30px;
@@ -144,8 +149,47 @@ button {
 .featured-picture-item-photo {
   height: 345.14px;
 }
-.rating-price {
+.rating-star {
   list-style: none;
   display: flex;
   flex-direction: row;
+}
+.offer {
+  background-color: #fff8f7;
+}
+.offer-info {
+  position: relative;
+  width: 555px;
+  height: 380px;
+  background-color: #e22104;
+  left: -110px;
+  top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+}
+.info-content {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+.food-menu-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px 20px;
+}
+.menu-grid-item {
+  box-sizing: border-box;
+  background-color: #fff8f7;
+  width: 540px;
+  height: 159px;
 }
