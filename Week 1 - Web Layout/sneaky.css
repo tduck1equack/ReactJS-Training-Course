@@ -49,7 +49,7 @@ button {
 .margin-box {
   margin: 130px auto;
   width: 1140px;
-  height: 414px;
+  height: auto;
 }
 .no-margin-top-bottom {
   margin: 15px auto;
