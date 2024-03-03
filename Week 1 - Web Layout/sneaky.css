@@ -15,6 +15,22 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.primary-button {
+  background-color: #e22104;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .primary-button {
+    padding: 0;
+  }
+}
 .navbar .navbar-content .logo-homepage {
   width: 92px;
   height: 31px;
@@ -53,6 +69,103 @@ body {
   color: #e22104;
 }
 
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+.social .banner-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 22%;
+  width: 50%;
+}
+@media only screen and (max-width: 1400px) {
+  .social .banner-left {
+    gap: 7%;
+  }
+}
+.social .banner-left .social-network {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-left: 7.5%;
+  padding-top: 30%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .social .banner-left .social-network {
+    padding-left: 6.5%;
+  }
+}
+
+.social .banner-left .content {
+  padding-top: 12%;
+}
+.social .banner-left .content .title {
+  font-size: 70px;
+  color: #2f2d4e;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 0.929;
+}
+.social .banner-left .content .button-menu {
+  display: flex;
+  flex-direction: row;
+}
+.social .banner-left .content .button-menu .transparent-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #2f2d4e;
+  padding: 12px 45px;
+  background-color: #fff;
+  font-weight: 600;
+  border: none;
+}
+.social .banner-left .content ul {
+  margin: 0;
+  padding: 0;
+}
+.social .banner-left .content .services {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-top: 130px;
+}
+.social .banner-left .content .services .services-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid #eeeeee;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.social .banner-left .content .services li:first-child {
+  padding-left: 0px;
+}
+.social .banner-left .content .services li:last-child {
+  padding-right: 0px;
+  border-right: none;
+}
+.social .banner-left .content .services .services-item .services-info {
+  font-size: 18px;
+  color: #2f2d4e;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 7px;
+}
+.social .banner-right {
+  margin-right: 7%;
+  width: 43%;
+}
+.social .banner-right .display {
+  aspect-ratio: 456 / 498;
+  max-width: 100%;
+  min-width: 100%;
+}
+
 @media only screen and (max-width: 1200px) {
   .margin-box {
     width: 960px;
@@ -76,14 +189,14 @@ body {
   .navbar .navbar-content .menu .options {
     display: none;
   }
-.navbar .navbar-content .menu .menu-dropdown {
+  .navbar .navbar-content .menu .menu-dropdown {
     display: flex;
+  }
 }
-
-@media only screen and (max-width: 768px){
-    .margin-box {
-        width: 540px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
+@media only screen and (max-width: 768px) {
+  .margin-box {
+    width: 540px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
