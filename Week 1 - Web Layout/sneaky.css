@@ -56,6 +56,19 @@ body {
   line-height: 1.2;
   margin-top: 0px;
 }
+.item-header {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px;
+  color: #2f2d4e;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.price {
+  font-size: 24px;
+  color: #e22104;
+  font-weight: 600;
+}
 .navbar .navbar-content .logo-homepage {
   width: 92px;
   height: 31px;
@@ -200,6 +213,38 @@ body {
 .about-content .content .primary-button {
   margin-top: 40px;
 }
+.featured .standard-section-title {
+  margin-bottom: 75px;
+}
+.featured .picture-slider {
+  display: flex;
+  justify-content: space-between;
+}
+.featured .picture-slider .slider-item {
+  width: 31.5%;
+  background-color: #fff8f7;
+}
+.featured .picture-slider .slider-item .item-display {
+}
+.featured .picture-slider .slider-item .item-display .display {
+  aspect-ratio: 360 / 355;
+  max-width: 100%;
+  max-height: 100%;
+}
+.featured .picture-slider .slider-item .item-info {
+  padding: 15px 30px 30px 30px;
+}
+.featured .picture-slider .slider-item .item-info .rating-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured .picture-slider .slider-item .item-info .ratings {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 13%;
+}
 /* @media querries area */
 
 @media only screen and (max-width: 1400px) {
@@ -250,6 +295,9 @@ body {
   .margin-section-box {
     margin: 65px 0;
   }
+  .item-header {
+    font-size: 19px;
+  }
   .navbar {
     background-color: #d1cff4;
   }
@@ -283,6 +331,15 @@ body {
   }
   .about-content .content .primary-button {
     margin-top: 24px;
+  }
+  .featured .picture-slider {
+    gap: 4%;
+  }
+  .featured .picture-slider .slider-item {
+    width: 50%;
+  }
+  .featured .picture-slider > div:last-child {
+    display: none;
   }
 }
 
@@ -328,8 +385,17 @@ body {
     width: 100%;
     margin-top: 96px;
   }
+  .featured .picture-slider > div:nth-child(2n) {
+    display: none;
+  }
+  .featured .picture-slider .slider-item {
+    width: 100%;
+  }
+  .featured .picture-slider .slider-item .item-display .display {
+    object-fit: contain;
+    width: 100%;
+  }
 }
-
 @media only screen and (max-width: 632px) {
 }
 @media only screen and (max-width: 600px) {
